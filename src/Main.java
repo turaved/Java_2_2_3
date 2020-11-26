@@ -8,13 +8,13 @@ public class Main {
         //double monthpay = sum * K;
 
         CreditPaymentService service = new CreditPaymentService();
-        double monthpay12 = service.calculate(12,9.99,1_000_000);
-        System.out.println(monthpay12);
+        double monthPay12 = service.calculate(12,9.99,1_000_000);
+        System.out.println(monthPay12);
 
-        double monthpay24 = service.calculate(24,9.99,1_000_000);
-        System.out.println(monthpay24);
+        double monthPay24 = service.calculate(24,9.99,1_000_000);
+        System.out.println(monthPay24);
 
-        double monthpay36 = service.calculate(36,9.99,1_000_000);
-        System.out.println(monthpay36);
+        double monthPay36 = service.calculate(36,9.99,1_000_000);
+        System.out.println(monthPay36);
         }
 }
